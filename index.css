@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(233, 220, 220);
+    width: 100%;
+    
+}
+
+
+header {
+    background-color: crimson;
+    color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+   
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: darkgreen;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+
+} 
+
+ul li {
+    
+    background-color: darkorange;
+    color: tomato;
+    font-weight: bolder;
+    display: inline-block;
+
+    
+
+}
+li {
+    list-style: none;
+    padding: 2px;
+    margin: 3px;
+}
+a {
+    background-color: whitesmoke;
+    color: sienna;
+    font-weight: bolder;
+}
+a.link, a:visited {
+    background-color: tomato;
+    color: violet;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: tomato;
+    color: yellow;
+}
+
+div {
+    background-color: tomato;
+    width: 100%;
+}
+
+#images {
+    background-color: brown;
+    width: 100%;
+}
+
+
+
+
+
+img{
+    width: 500px;
+    height: 400px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border: 2px;
+    border-collapse: collapse;
+    background-color: rgb(199, 167, 174);
+}
+td, tr {
+    text-align: left;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 100;
+}
+
+tr {
+    padding: 10px;
+    font-weight: bold;
+}
+
+th {
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+tr:nth-child(even) {
+    background-color: tan;
+}
+
+.meal_type {
+    font-size: x-large;
+}
